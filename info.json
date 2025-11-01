@@ -1,0 +1,62 @@
+{
+  "id": "plugin.com.r3miliasaiko.glm",
+  "plugin_type": "translate",
+  "icon": "chatglm.png",
+  "display": "glm",
+  "homepage": "https://github.com/r3miliasaiko/pot-app-translate-plugin-glm",
+  "needs": [
+    {
+      "key": "model",
+      "display": "模型选择",
+      "type": "select",
+      "options": {
+        "GLM-4-Flash-250414": "GLM-4-Flash-250414",
+        "GLM-4.5-Flash": "GLM-4.5-Flash",
+        "GLM-4-FlashX-250414": "GLM-4-FlashX-250414",
+        "GLM-4-AirX": "GLM-4-AirX",
+        "GLM-4-Long": "GLM-4-Long",
+        "GLM-4-Air-250414": "GLM-4-Air-250414",
+        "GLM-4-Plus": "GLM-4-Plus",
+        "GLM-4.5-AirX": "GLM-4.5-AirX",
+        "GLM-4.5-Air": "GLM-4.5-Air",
+        "GLM-4.5-X": "GLM-4.5-X",
+        "GLM-4.5": "GLM-4.5",
+          "GLM-4.6": "GLM-4.6"
+      },
+      "default": "GLM-4.5-Flash"
+    },
+    {
+      "key": "apiKey",
+      "display": "API密钥",
+      "type": "input"
+    }
+  ],
+  "language": {
+    "auto": "auto",
+    "zh_cn": "zh",
+    "zh_tw": "zh_HANT",
+    "en": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "fr": "fr",
+    "es": "es",
+    "ru": "ru",
+    "de": "de",
+    "it": "it",
+    "tr": "tr",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi": "vi",
+    "id": "id",
+    "th": "th",
+    "ms": "ms",
+    "ar": "ar",
+    "hi": "hi",
+    "mn_cy": "mn",
+    "mn_mo": "mn",
+    "km": "km",
+    "nb_no": "no",
+    "nn_no": "no",
+    "fa": "fa"
+  }
+}
