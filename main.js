@@ -43,12 +43,7 @@ async function translate(text, from, to, options) {
 
     if (res.ok) {
         let result = res.data;
-        const { translation } = result;
-        if (translation) {
-            return translation.replaceAll("@@", "/");;
-        } else {
-            throw JSON.stringify(result.trim());
-        }
+        return result.choices[0].message.content.trim().replace(/^"|"$/g, '');
     } else {
         throw `Http Request Error\nHttp Status: ${res.status}\n${JSON.stringify(res.data)}`;
     }
